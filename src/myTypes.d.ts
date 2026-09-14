@@ -1,5 +1,3 @@
-import {Friend, Colleague } from './myTypes'
-
 export interface Friend {
     name: string;
     phone: string;

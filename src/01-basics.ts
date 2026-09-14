@@ -1,15 +1,17 @@
 import {Friend, Colleague, ColleagueHistory } from './myTypes'
 
-const friend1 = {
-  name: "Gabriel Reyes",
+const friend1: Friend = {
+  name: "Paul Fleming",
   phone: "087-12345",
-  age: 50,
+  age: 25,
+  dob: new Date("1998-11-20"),
 };
 
-const friend2 = {
-  name: "Jack Morrison",
+const friend2: Friend = {
+  name: "Jane Costello",
   phone: "086--12345",
-  age: 55,
+  age: 31,
+  interests: ['Music', 'Sport'],
 };
 
 //console.log(friends[1]);
